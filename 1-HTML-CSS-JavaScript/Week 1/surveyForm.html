@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> " Survey Form"</title>
+</head>
+
+<body>
+    <h1>Survey</h1>
+    <form action "https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+        <fieldset>
+            <legend>Your Information</legend>
+            <div>
+               <laber for="firstname"></laber> First Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Your First Name" />
+            </div>
+            <div>
+                Last Name: <input type="text" name="lastname" placeholder="Your Last Name" />
+            </div>
+            <div>
+                Your email: <input type="email" name="email" placeholder="Your email address" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Survery Questions</legend>
+
+            <div>
+                Favorite Sport: 
+                <input type="radio" name="sport" value="baseball" />Baseball
+                <input type="radio" name="sport" value="NBA" />NBA
+                <input type="radio" name="sport" value="NHL" />NHL
+            </div>
+            <div>
+                Your Pets:
+                <input type="checkbox" name="pets" value="cat" />Cat
+                <input type="checkbox" name="pets" value="dog" />Dog
+                <input type="checkbox" name="pets" value="lizard" />Lizard
+            </div>
+        </fieldset>
+        <input type="submit"
+    
+    
+    
+    
+    </form>
+
+
+
+</body>
+
+</html>
